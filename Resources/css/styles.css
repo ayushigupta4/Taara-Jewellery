@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4 {
+    font-size: 20px;
+    color: #222;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+    color: #222;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+    margin: 40px 0;
+}
+
+.section-m1 {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #1a2c36;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+#navbar li a:link,
+#navbar li  a:visited {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ebcd99;
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: rgb(212, 160, 91);
+    border-bottom: 2px solid rgb(212, 160, 91);
+}
+
+#hero {
+    background-image: url('./img/hero.jpg');
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#hero h4{
+    padding-bottom: 15px;
+}
+
+#hero h1 {
+    color: #cc8f26;
+}
+
+.btn:link,
+.btn:visited,
+input[type=submit] {
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: 300;
+    border-radius: 200px;
+    
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
+    background-color: #cc8f26;
+    color: #fff;
+    border: 1px solid #cc8f26;
+    margin-right: 25px;
+    margin-bottom: 15px;
+}
+
+.btn-ghost:visited,
+.btn-ghost:link{
+    border: 1px solid #cc8f26;
+    color: #cc8f26;
+    font-weight: 600;
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit] {
+    background-color: #be7f12;
+    color: #fff;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #be7f12;
+}
+
+.btn-full:hover,
+.btn-full:active,
+input[type=submit] {
+    border: 1px solid #be7f12
+}
+
+
+
