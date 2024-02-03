@@ -57,7 +57,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 80px;
+    padding: 10px 80px;
     background-color: #1a2c36;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
     position: sticky;
@@ -99,6 +99,7 @@ body {
     width: 100%;
     background-size: cover;
     background-position: center;
+    margin: 0;
     padding: 0 80px;
     display: flex;
     flex-direction: column;
@@ -234,4 +235,89 @@ input[type=submit] {
     bottom: 20px;
     right: 10px;
 } 
+
+#sm-banner {
+    margin: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#sm-banner .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url("img/people2.jpg");
+    min-width: 580px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+#sm-banner .banner-box2 {
+    background-image: url("img/people7.jpg");
+}
+
+#sm-banner button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: 400;
+    cursor: pointer;
+    
+}
+
+#testimonials {
+    text-align: center;
+    padding: 0 80px;
+    
+}
+
+#testimonials .rev-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#testimonials h2 {
+    margin-bottom: 20px;
+    
+}
+
+#vid {
+    width: auto;
+    height: 350px;
+}
+
+#testimonials .star {
+    font-size: 12px;
+    color: goldenrod;
+}
+
+#testimonials .rev {
+    position: relative;
+}
+
+#testimonials .rev .description {
+    text-align: left;
+}
+
+#testimonials .rev .cart {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    font-weight: 500;
+    color: #088178;
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+}
+
+
 
