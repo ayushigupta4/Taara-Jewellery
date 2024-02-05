@@ -37,7 +37,8 @@ p {
 }
 
 .section-p1 {
-    margin: 40px 0;
+    padding: 40px 0;
+
 }
 
 .section-m1 {
@@ -74,7 +75,7 @@ body {
 
 #navbar li {
     list-style: none;
-    padding: 0 20px;
+    padding: 0 15px;
 }
 
 #navbar li a:link,
@@ -99,7 +100,6 @@ body {
     width: 100%;
     background-size: cover;
     background-position: center;
-    margin: 0;
     padding: 0 80px;
     display: flex;
     flex-direction: column;
@@ -163,7 +163,7 @@ input[type=submit] {
 
 #product1 {
     text-align: center;
-    padding: 0 80px;
+    padding: 20px 80px;
 }
 
 #product1 .pro-container {
@@ -237,7 +237,7 @@ input[type=submit] {
 } 
 
 #sm-banner {
-    margin: 80px;
+    margin: 10px 80px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -272,7 +272,7 @@ input[type=submit] {
 
 #testimonials {
     text-align: center;
-    padding: 0 80px;
+    padding: 40px 80px;
     
 }
 
@@ -318,6 +318,74 @@ input[type=submit] {
     bottom: 0px;
     right: 10px;
 }
+
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #1a2c36;
+
+}
+
+#newsletter .newstext {
+    margin: 0 80px;
+}
+
+#newsletter .form {
+    margin: 0 40px;
+    width: 40%;
+    display: flex;
+    
+
+}
+
+#newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#newsletter p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #818ea0;
+}
+
+#newsletter p span{
+    color: #cc8f26;
+}
+
+#newsletter input {
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    outline: none;
+    font-weight: 700;
+}
+
+#newsletter button {
+    
+    background-color: #cc8f26;
+    border-color: #cc8f26;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;  
+    transition: 0.2s;  
+
+}
+
+#newsletter button:hover,
+#newsletter button:active {
+    background-color: #be7f12;
+    border-color: #be7f12;
+}
+
+
+
 
 
 
