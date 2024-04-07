@@ -53,6 +53,10 @@ body {
     height: 60px;
     width: auto;
 }
+.store {
+    height: 50px;
+    width: auto;
+}
 
 #header {
     display: flex;
@@ -90,9 +94,20 @@ body {
 
 #navbar li a:hover,
 #navbar li a.active {
-    color: rgb(212, 160, 91);
+    color: #d4a05b;
     border-bottom: 2px solid rgb(212, 160, 91);
 }
+
+#mobile {
+    display: none;
+    align-items: center;
+
+}
+
+#close {
+    display: none;
+}
+
 
 #hero {
     background-image: url('./img/hero.jpg');
@@ -437,6 +452,157 @@ footer a:hover {
 footer .copyright {
     width: 100%;
     text-align: center;
+}
+
+@media (max-width:799px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #1a2c36;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        transition: 0.3s;
+    }
+    #navbar.active {
+        right: 0px;
+    }
+
+    #navbar li{
+        margin-bottom: 25px;
+    }
+
+    #mobile {
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    #mobile i {
+        color: #ebcd99;
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    #close {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 24px;
+        color: #ebcd99;
+    }
+
+    #lg-bag {
+        display: none;
+    }
+
+    #hero {
+        height: 70vh;
+        padding: 0 40px;
+        background-position: top 50% right 55%;
+    }
+
+    #product1 .pro-container {
+        
+        justify-content: space-around;
+    }
+
+    #sm-banner .banner-box {
+        min-width: 100%;
+        height: 30vh;
+        padding: 30px;
+        margin-bottom: 20px;
+    }
+
+
+    #testimonials .rev-container {
+        flex-wrap:nowrap;
+    }
+
+    #vid {
+        height: 260px;
+    }
+
+    #newsletter .form {
+        margin: 0 80px;
+        width: 60%;
+
+    }
+}
+
+@media (max-width: 477px) {
+    #header {
+        padding: 10px 30px;
+    }
+
+    #hero {
+        padding: 0 20px;
+        background-image: url('./img/hero-mobile.avif'); 
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 44px;
+    }
+
+    #product1 .pro {
+        width: 100%;
+    
+    }
+    #sm-banner {
+        margin: 10px 10px;
+        
+    }
+
+    #sm-banner .banner-box {
+        height: 40vh;
+    }
+
+    .section-p1 {
+        padding: 20px;
+    }
+
+    #vid {
+        height: 300px;
+    }
+
+    #testimonials .rev-container {
+        flex-wrap:wrap;
+        justify-content: space-around;
+    }
+
+    #testimonials .rev {
+        margin-bottom: 10px;
+    }
+
+    #testimonials {
+        padding: 20px 20px;
+    }
+
+    #newsletter .newstext {
+        margin: 0 25px;
+    }
+
+    #newsletter .form {
+        margin: 0 25px;
+        width: 85%;
+    }
+
 }
 
 
