@@ -454,6 +454,42 @@ footer .copyright {
     text-align: center;
 }
 
+/* Rings page */
+
+#page-header {
+    background-image: url('./img/ring-wallpaper.jpg');
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align:end;
+    flex-direction: column;
+    background-position: top 70% right 60%;
+    padding: 14px;
+}
+
+#page-header h2,
+#page-header p {
+    color: #fff;
+    margin-right: 40px;
+}
+
+#pagination {
+    text-align: center;
+}
+
+#pagination a {
+    text-decoration: none;
+    background-color: #cc8f26;
+    padding: 10px 17px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+
 @media (max-width:799px) {
     #navbar {
         display: flex;
