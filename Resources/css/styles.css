@@ -488,6 +488,73 @@ footer .copyright {
     font-weight: 600;
 }
 
+/* Single Product */
+
+#prodetails {
+    display: flex;
+    margin-top: 20px;
+}
+
+#prodetails .single-pro-image {
+    width: 40%;
+    margin-right: 50px;
+}
+
+.small-img-group {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#prodetails .single-pro-details {
+    width: 50%;
+    padding-top: 30px;
+}
+
+#prodetails .single-pro-details h4 {
+    padding: 40px 0 20px 0;
+}
+
+#prodetails .single-pro-details h2 {
+    font-size: 26px;
+}
+
+#prodetails .single-pro-details input {
+    width: 50px;
+    height: 47px;
+    padding-left: 16px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#prodetails .single-pro-details input:focus {
+    outline: none;
+}
+
+#prodetails .single-pro-details button {
+    background-color: #cc8f26;
+    border-color: #cc8f26;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;  
+    transition: 0.2s;  
+}
+
+#prodetails .single-pro-details button:hover,
+#prodetails .single-pro-details button:active {
+    background-color: #be7f12;
+    border-color: #be7f12;
+}
+
+#prodetails .single-pro-details span {
+    line-height: 5px;
+}
 
 
 @media (max-width:799px) {

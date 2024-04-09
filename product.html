@@ -37,6 +37,112 @@
     
     </section>
 
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="Resources/img/e1.webp" width="100%" id="MainImg" alt="">
+
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="Resources/img/e1.webp" width="100%" class="small-img" alt="">
+                </div>
+                
+                <div class="small-img-col">
+                    <img src="Resources/img/e3.webp" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="Resources/img/e4.webp" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                  <img src="Resources/img/e4.webp" width="100%" class="small-img" alt="">
+              </div>
+            </div>
+        </div>
+
+        <div class="single-pro-details">
+          <h6>Home/Earrings</h6>
+          <h4>Spear Silver Earrings</h4>
+          <h2>₹1,399 <span style="text-decoration: line-through; font-size:20px;">MRP ₹2,799</span> Incl. of all taxes</h2>
+          <input type="number" value="1">
+          <button class="normal">Add To Cart</button>
+          <h4>Product Details</h4>
+          <span class="description">These Spear earrings boast a sleek design, accentuated by dazzling cubic zircon studs, adding a touch of elegance to any ensemble. Ideal for those with sensitive ears, they are crafted from sterling silver, ensuring comfortable wear. The anti-tarnish e-coating, infused with rhodium, safeguards the silver's luster over time. Each pair comes complete with a jewelry kit and authenticity certificate, making it the perfect gift to inspire the dreamers in your life with the reminder of their inherent beauty.</span>
+
+        </div>
+
+    </section>
+
+    <section id="product1" class="section-p1">
+      <h2>Featured Products</h2>
+      <p>Bestselling and most wishlisted products</p>
+      <div class="pro-container">
+       
+        <div class="pro">
+          <img src="./Resources/img/5.webp" alt="">
+          <div class="description">
+            <span>Brand name</span>
+            <h5>Product name</h5>
+            <div class="star">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <h4>Price</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="./Resources/img/6.webp" alt="">
+          <div class="description">
+            <span>Brand name</span>
+            <h5>Product name</h5>
+            <div class="star">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <h4>Price</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="./Resources/img/7.webp" alt="">
+          <div class="description">
+            <span>Brand name</span>
+            <h5>Product name</h5>
+            <div class="star">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <h4>Price</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="./Resources/img/8.webp" alt="">
+          <div class="description">
+            <span>Brand name</span>
+            <h5>Product name</h5>
+            <div class="star">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <h4>Price</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+      </div>
+    </section>
+
     
     <section id="newsletter" class="section-p1">
       <div class="newstext">
@@ -106,6 +212,25 @@
         <p>© 2024, Taara Jewellery</p>
       </div>
     </footer>
+
+    <script>
+      var MainImg = document.getElementById("MainImg");
+      var smallImg = document.getElementsByClassName('small-img');
+
+      smallImg[0].onclick = function() {
+        MainImg.src = smallImg[0].src;
+      }
+      smallImg[1].onclick = function() {
+        MainImg.src = smallImg[1].src;
+      }
+      smallImg[2].onclick = function() {
+        MainImg.src = smallImg[2].src;
+      }
+      smallImg[3].onclick = function() {
+        MainImg.src = smallImg[3].src;
+      }
+    </script>
+
 
 
     <script src="script.js"></script>
