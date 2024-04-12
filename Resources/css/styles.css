@@ -629,6 +629,111 @@ footer .copyright {
     z-index: -9;
 }
 
+/* Contact Page */
+
+#page-header.contact-header {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url('./img/contact-wallpaper.jpg');
+    text-align: center;
+
+}
+
+#contact-details {
+    display: flex;
+    align-items: centre;
+    justify-content: space-between;
+}
+
+#contact-details .details {
+    width: 40%;
+}
+
+#contact-details .details span,
+#form-details form span {
+    font-size: 12px;
+}
+
+#contact-details .details h2,
+#form-details form h2 {
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+
+#contact-details .details h3 {
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+#contact-details .details li {
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
+
+#contact-details .details li i {
+    font-size: 14px;
+    padding-right: 22px;
+}
+
+#contact-details .details li p {
+    margin: 0;
+    font-size: 14px;
+}
+
+#contact-details .map {
+    width: 55%;
+    height: 400px;
+}
+
+#contact-details .map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+#form-details {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    padding: 60px;
+    border: 1px solid #e1e1e1;
+}
+
+#form-details form {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#form-details form input,
+#form-details form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+}
+
+#form-details button {
+    
+    background-color: #cc8f26;
+    border-color: #cc8f26;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;  
+    transition: 0.2s;  
+    color: white;
+
+}
+
+#form-details button:hover,
+#form-details button:active {
+    background-color: #be7f12;
+    border-color: #be7f12;
+}
+
+
 @media (max-width:799px) {
     #navbar {
         display: flex;
@@ -823,6 +928,25 @@ footer .copyright {
     }
 
     #blog .blog-details {
+        width: 100%;
+    }
+
+    /* Contact Page */
+
+    #form-details {
+        padding: 5px;        
+    }
+
+    #contact-details {
+        flex-direction: column;
+    }
+
+    #contact-details .details {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #contact-details .map {
         width: 100%;
     }
 
